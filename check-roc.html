@@ -18,7 +18,7 @@
 			//alert("The results are:" + JSON.stringify(survey.data));
 			$.ajax({
 				method: "POST",
-				url: "cyberchef/output.php",
+				url: "output.php",
 				data: survey.data
 			})
 					.done(function( msg ) {
