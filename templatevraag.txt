@@ -1,0 +1,26 @@
+						{
+							"type": "radiogroup",
+							"name": "V104",
+							"title": {
+								"default": "Medewerkers zijn op de hoogte dat zij geen gebruik dienen te maken van de gastenwifi?",
+								"nl": "Medewerkers zijn op de hoogte dat zij geen gebruik dienen te maken van het WiFi-gastennetwerk met zakelijke apparaten?"
+							},
+							"isRequired": true,
+							"choices": [
+								{
+									"value": "1",
+									"text": "Ja"
+								},
+								{
+									"value": "2",
+									"text": "Nee"
+								}
+							],
+							"colCount": 5
+						}
+
+
+doe deze onder een bestaande vraag na de },
+
+ook moet je deze templatevraag in een 'page' doen, er zijn nu 13 pages beschikbaar, en als je een vraag implmenteert moet je ook deze in een 'elements' doen
+
